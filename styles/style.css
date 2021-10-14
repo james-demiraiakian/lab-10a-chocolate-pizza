@@ -1,12 +1,9 @@
 .page-header{
     display:flex;
     flex-direction:row;
-    /* justify-content: center; */
-    margin-bottom: 100px;
-    margin-top: 800px;
     border-bottom: 1px dotted black;   
     align-items: center;
-    /* width:100%; */
+    width:100%;
 }
 body{
     display: flex;
@@ -100,7 +97,7 @@ body{
 
 .right {
     justify-content: right;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .left, .right {
@@ -108,7 +105,7 @@ body{
 }
 
 p {
-    width: 50%;
+    width: 100%;
     word-wrap: break-word;
 }
 
@@ -147,4 +144,5 @@ ul {
     justify-content: center;
     align-items: center;
     width: 600px;
+    opacity: 50%;
 }
