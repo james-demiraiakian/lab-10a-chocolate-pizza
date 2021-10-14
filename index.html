@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -18,9 +21,13 @@
     <header class="page-header">
         <div class="row-box">
             <div class="logo">
-                <div class="logo-left"></div>
-                <h1 class="delicious">Delicious</h1>
+                <div class="logo-left">
+                    <img class="logo-img" src="./assets/logo.png" alt="logo">
+                </div>
+                <div class="text-div">
+                    <h1 class="delicious">Delicious</h1>
                 <h2 class="best-blog">The best food blog on the web</h2>
+               </div>
             </div>
             <div class="border">
                 <nav class="socials">
@@ -40,12 +47,12 @@
         <article class="main-article">
             <div class="row">
                 <div class="title">
-                    <h1>Chocolate Pizza</h1>
-                    <h2>Posted on 15 December 2013/desserts</h2>
+                    <h1 id="title">Chocolate Pizza</h1>
+                    <h2 id="date">Posted on 15 December 2013/desserts</h2>
                 </div>
             </div>
             <div class="print-link">
-                <p>
+                <p id="print">
                     <img src="./assets/print-icon.png" alt="Print">
                     Print
                 </p>
@@ -98,7 +105,7 @@
     <footer>
         <div class="row">
             <div class="rights">
-                <p>Delicious ©️ 2013 . All Rights Reserved.</p>
+                <p>Delicious ©️ 2013 · All Rights Reserved.</p>
                 <p>Proudly published with Ghost.</p>
             </div>
         </div>
