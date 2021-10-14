@@ -15,8 +15,13 @@ body{
     align-items: center;
     margin-left: 25%;
     margin-right:25%;
-
 }
+
+.underline {
+    width: 901px;
+    border-bottom: 1px dotted black;
+}
+
 .logo{
     display: flex;
     flex-direction: row;
@@ -66,4 +71,81 @@ body{
 }
 #print{
     opacity: 50%;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: row;
+}
+
+#ingredient-row {
+    background-image: url("../assets/list-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* #list {
+    position: absolute;
+    background-image: url('./assets/list-bg.png');
+} */
+
+.left {
+    justify-content: left;
+    margin-left: 40px;
+}
+
+.right {
+    justify-content: right;
+    margin-left: 200px;
+}
+
+.left, .right {
+    font-size: 1.8rem;
+}
+
+p {
+    width: 50%;
+    word-wrap: break-word;
+}
+
+ul {
+    
+    list-style-type: square;
+}
+
+#author {
+    margin-top: 50px;
+    border-top: 1px dotted black;
+    padding: 10px;
+    width: 901px;
+}
+
+.author-notes {
+    display: flex;
+    flex-direction: row;
+}
+
+#headshot {
+    height: 50px;
+    width: 50px;
+}
+
+#pizza-div {
+    width: 901px;
+}
+.choco-pizza {
+    width: 901px;
+}
+
+.rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 600px;
+    text-align: center;
 }
