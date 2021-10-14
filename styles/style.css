@@ -145,7 +145,6 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     width: 600px;
-    text-align: center;
 }
